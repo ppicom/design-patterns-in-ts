@@ -1,8 +1,1 @@
-# Typescript template
-
-Use this template to avoid having to configure every new project from scratch.
-
-Comes with:
-
-- Typescript
-- mocha
+# Typescript implementation of GOF's design patterns
