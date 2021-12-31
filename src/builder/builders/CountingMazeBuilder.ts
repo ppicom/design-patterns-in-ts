@@ -1,4 +1,4 @@
-import { Maze } from "../../maze/Maze";
+import { Maze } from "../maze/Maze";
 import { MazeBuilder } from "./MazeBuilder";
 
 export class CountingMazeBuilder extends MazeBuilder {
