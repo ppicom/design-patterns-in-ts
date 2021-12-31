@@ -1,7 +1,7 @@
-import { Maze } from "../../maze/Maze";
-import { Door } from "../../maze/sites/Door";
-import { Room } from "../../maze/sites/Room";
-import { Wall } from "../../maze/sites/Wall";
+import { Maze } from "../maze/Maze";
+import { Door } from "../maze/sites/Door";
+import { Room } from "../maze/sites/Room";
+import { Wall } from "../maze/sites/Wall";
 
 /**
  * We could have made it concrete, and then use it as the base class

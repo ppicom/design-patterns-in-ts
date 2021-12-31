@@ -1,6 +1,6 @@
-import { Maze } from "../maze/Maze";
-import { Direction } from "../maze/sites/Direction";
 import { MazeFactory } from "./factories/MazeFactory";
+import { Maze } from "./maze/Maze";
+import { Direction } from "./maze/sites/Direction";
 
 export class MazeGame {
   /**

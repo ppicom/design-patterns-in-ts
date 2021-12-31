@@ -1,9 +1,9 @@
-import { Maze } from "../../maze/Maze";
-import { Door } from "../../maze/sites/Door";
-import { DoorNeedingSpell } from "../../maze/sites/DoorNeedingSpell";
-import { EnchantedRoom } from "../../maze/sites/EnchantedRoom";
-import { Room } from "../../maze/sites/Room";
-import { Wall } from "../../maze/sites/Wall";
+import { Maze } from "../maze/Maze";
+import { Door } from "../maze/sites/Door";
+import { DoorNeedingSpell } from "../maze/sites/DoorNeedingSpell";
+import { EnchantedRoom } from "../maze/sites/EnchantedRoom";
+import { Room } from "../maze/sites/Room";
+import { Wall } from "../maze/sites/Wall";
 import { MazeFactory } from "./MazeFactory";
 
 export class EnchantedMazeFactory implements MazeFactory {

@@ -1,6 +1,6 @@
-import { Maze } from "../maze/Maze";
 import { CountingMazeBuilder } from "./builders/CountingMazeBuilder";
 import { StandardMazeBuilder } from "./builders/StandardMazeBuilder";
+import { Maze } from "./maze/Maze";
 import { MazeGame } from "./MazeGame";
 
 (function () {

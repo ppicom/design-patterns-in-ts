@@ -1,4 +1,4 @@
-import { MazeBuilder } from "./MazeBuilder";
+import { MazeBuilder } from "./builders/MazeBuilder";
 
 export class MazeGame {
   static createMaze(builder: MazeBuilder) {
