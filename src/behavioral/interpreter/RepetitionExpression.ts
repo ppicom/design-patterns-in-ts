@@ -1,3 +1,4 @@
+import { ReadStream } from "fs";
 import RegularExpression from "./RegularExpression";
 
 export default class RepetitionExpression extends RegularExpression {
@@ -10,5 +11,16 @@ export default class RepetitionExpression extends RegularExpression {
 
   interpret(): void {
     throw new Error("Method not implemented.");
+  }
+
+  match(input: ReadStream): ReadStream[] {
+    const allMatches: ReadStream[] = [];
+    let matched: ReadStream[] = this.repetition.match(input);
+    while (matched.length) {
+      allMatches.push(...matched);
+      matched = this.repetition.match(input);
+    }
+
+    return allMatches;
   }
 }
